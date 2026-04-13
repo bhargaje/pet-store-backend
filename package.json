@@ -1,0 +1,26 @@
+{
+  "name": "pet-store-backend",
+  "version": "1.0.0",
+  "description": "Pet Store Demo - Express/Node.js Backend API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --forceExit --detectOpenHandles"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.1025.0",
+    "@aws-sdk/lib-dynamodb": "^3.1025.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.28.6",
+    "fast-check": "^4.6.0",
+    "jest": "^30.3.0",
+    "supertest": "^7.2.2"
+  }
+}
